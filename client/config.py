@@ -7,5 +7,7 @@ class AppConfig(BaseSettings):
     mongo_username: str = "root"
     mongo_password: str = "pass"
 
+    db_name: str = "database"
+
 
 config = AppConfig()
