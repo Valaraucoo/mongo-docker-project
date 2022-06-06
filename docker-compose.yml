@@ -7,19 +7,31 @@ services:
       dockerfile: Dockerfile
     command: python3 client/main.py
     links:
-      - db
+      - tango
+      - sierra
     env_file:
       - .env
 
-  db:
+  tango:
     image: mongo:latest
     restart: always
     ports:
       - "27017:27017"
     volumes:
-      - mongo_volume:/data/db
+      - tango_mongo_volume:/data/db
+    env_file:
+      - .env
+
+  sierra:
+    image: mongo:latest
+    restart: always
+    ports:
+      - "27018:27017"
+    volumes:
+      - sierra_mongo_volume:/data/db
     env_file:
       - .env
 
 volumes:
-  mongo_volume:
+  tango_mongo_volume:
+  sierra_mongo_volume:
