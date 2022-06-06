@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07c5664e-395a-4283-8363-e1a9b5046e5d" name="Changes" comment="init: project &amp; mongo setup">
-      <change afterPath="$PROJECT_DIR$/client/algorithms/executor.py" afterDir="false" />
+    <list default="true" id="07c5664e-395a-4283-8363-e1a9b5046e5d" name="Changes" comment="feat: executors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/algorithms/ex_one.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/algorithms/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/algorithms/repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/algorithms/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/algorithms/executor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,7 @@
       <workItem from="1654526215510" duration="688000" />
       <workItem from="1654526920617" duration="155000" />
       <workItem from="1654527084207" duration="514000" />
-      <workItem from="1654527707619" duration="4849000" />
+      <workItem from="1654527707619" duration="5395000" />
     </task>
     <task id="LOCAL-00001" summary="init: project &amp; mongo setup">
       <created>1654432573985</created>
@@ -89,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654432688781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: executors">
+      <created>1654534879718</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654534879718</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init: project &amp; mongo setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="init: project &amp; mongo setup" />
+    <MESSAGE value="feat: executors" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: executors" />
   </component>
 </project>

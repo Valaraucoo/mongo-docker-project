@@ -10,6 +10,7 @@ logger = getLogger(__name__)
 
 
 def execute(alpha: Collection, beta: Collection, num_iteration: int = 100, step: int = 20) -> list[float]:
+    logger.warning(f"Started executing algorithm; num_iteration={num_iteration}; step={step};")
     times = []
 
     for n in range(0, num_iteration, step):

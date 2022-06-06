@@ -18,5 +18,8 @@ if __name__ == "__main__":
     beta: Collection = tango.beta
     gamma: Collection = sierra.gamma
 
-    logger.warning(f"1. Times = {executor.execute(alpha, beta, num_iteration=300, step=20)}")
-    logger.warning(f"2. Times = {executor.execute(alpha, gamma, num_iteration=300, step=20)}")
+    one_instance_times = executor.execute(alpha, beta, num_iteration=400, step=20)
+    two_instances_times = executor.execute(alpha, gamma, num_iteration=400, step=20)
+
+    logger.warning(f"1. One instance times = {one_instance_times}")
+    logger.warning(f"2. Two instances times = {two_instances_times}")
