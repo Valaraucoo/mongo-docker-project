@@ -13,5 +13,8 @@ class AppConfig(BaseSettings):
 
     db_name: str = "database"
 
+    max_n: int = 500
+    step: int = 10
+
 
 config = AppConfig()

@@ -41,4 +41,3 @@ def find_message(coll: Collection, key: int) -> MessageSchema | None:
 def get_random_from_collection(coll: Collection) -> MessageSchema:
     messages = list(coll.find({}))
     return MessageSchema(**random.choice(messages))
-

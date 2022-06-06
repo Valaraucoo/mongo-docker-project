@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07c5664e-395a-4283-8363-e1a9b5046e5d" name="Changes" comment="feat: executors">
+      <change afterPath="$PROJECT_DIR$/.github/CODEOWNERS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/.env.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/algorithms/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/algorithms/executor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/algorithms/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/algorithms/repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -68,7 +75,7 @@
       <workItem from="1654526215510" duration="688000" />
       <workItem from="1654526920617" duration="155000" />
       <workItem from="1654527084207" duration="514000" />
-      <workItem from="1654527707619" duration="5395000" />
+      <workItem from="1654527707619" duration="7514000" />
     </task>
     <task id="LOCAL-00001" summary="init: project &amp; mongo setup">
       <created>1654432573985</created>
@@ -91,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654534879718</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: executors">
+      <created>1654535530334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654535530334</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

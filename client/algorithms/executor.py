@@ -5,16 +5,17 @@ from pymongo.collection import Collection
 
 from . import repository
 from .repository import MessageSchema
+from ..config import config
 
 logger = getLogger(__name__)
 
 
-def execute(alpha: Collection, beta: Collection, num_iteration: int = 100, step: int = 20) -> list[float]:
-    logger.warning(f"Started executing algorithm; num_iteration={num_iteration}; step={step};")
+def execute(alpha: Collection, beta: Collection, max_n: int = config.max_n, step: int = config.step) -> list[float]:
+    logger.warning(f"Started executing algorithm; max_n={max_n}; step={step};")
     times = []
 
-    for n in range(0, num_iteration, step):
-        logger.warning(f"Executing algorithm; iteration: {n} [{n/num_iteration*100:.2f}%]")
+    for n in range(0, max_n, step):
+        logger.warning(f"Executing algorithm; iteration: {n} [{n/max_n*100:.2f}%]")
         repository.fill_collection(alpha, size=n)
         repository.clear_collection(beta)
 
